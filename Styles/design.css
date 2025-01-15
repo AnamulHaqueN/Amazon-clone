@@ -141,4 +141,41 @@
 }
 
 
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
 /* Pannel bar */
+.panel{
+    height: 39px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+.panel-all{
+    color: #FFFFFF;
+    display: flex;
+    margin: 10px;
+    padding: 8px, 9px;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
