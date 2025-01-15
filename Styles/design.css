@@ -66,6 +66,9 @@
     border-radius: 4px; 
 }
 
+.search-bar:hover{
+    border: 2px solid orange;
+}
 .selectors-all{
     color: #0F1111;
     background:#E6E6E6;
@@ -105,6 +108,22 @@
 }
 
 .account-bar{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+/* box5 Returns & Orders */
+
+.nav-returns{
+    color: #D6D6D6;
+    width: 100px;
+}
+.returns-bar{
+    font-size: 12px;
+}
+
+.orders-bar{
     font-size: 14px;
     font-weight: 700;
 }
