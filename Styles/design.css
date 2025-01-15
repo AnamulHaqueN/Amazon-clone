@@ -1,0 +1,51 @@
+/* Try to set it for every project*/
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box; /*border count include content area*/
+} 
+
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    margin-right: 10px;
+}
+.logo{
+   background-image: url("../photos/amazon_logo.png");
+   background-size: cover;
+   height: 50px;
+   width: 100%;
+}
+
+/* .border{
+    border: 1.5px solid transparent;
+} */
+.border:hover{
+    border: 1.5px solid whitesmoke;
+}
+
+
+/* for box2 location icon */ 
+
+.location{
+    display: flex;
+    align-items: center;
+}
+.deliver{
+    font: 12px;
+    color: #CCCCCC;
+    margin-left: 15px;
+}
+.country{
+    font: 14px;
+    color: #FFFFFF;
+    margin-left: 2px;
+}
